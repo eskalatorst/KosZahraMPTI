@@ -1,0 +1,30 @@
+:root,
+[data-bs-theme=light] {
+  --bs-blue:#485BBC;
+  ;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-logo {
+    width: 42px;
+}
+
+p.koszahra {
+    font-size: 22px;
+    text-align: center;
+    padding: inherit;
+    margin-top: 10px;
+    font-size: larger;
+}
+
+header {
+    border-bottom: 2px solid;
+    border-color: #999999;
+
+}
+button.btn.btn-login{
+    background-color: #485BBC;
+    color: white;
+}
