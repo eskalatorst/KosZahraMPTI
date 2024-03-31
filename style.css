@@ -12,7 +12,7 @@ body {
 }
 
 p.koszahra {
-    font-size: 22px;
+    font-weight: 600;
     text-align: center;
     padding: inherit;
     margin-top: 10px;
@@ -27,4 +27,26 @@ header {
 button.btn.btn-login{
     background-color: #485BBC;
     color: white;
+}
+
+section.hero {
+    background-color: #F5FCFF;
+}
+img.hero-photo {
+       width: 40%;
+       margin-left: 200px;
+}
+
+p{
+    font-family: Helvetica;
+}
+
+p.hero {
+    font-size: 44px;
+    margin-top: 150px;
+
+}
+span.zahra {
+    font-size: 60px;
+    color: #485BBC;
 }
