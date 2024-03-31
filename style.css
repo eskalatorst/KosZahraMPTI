@@ -4,7 +4,7 @@
   ;
 }
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica;
 }
 
 .img-logo {
@@ -34,7 +34,7 @@ section.hero {
 }
 img.hero-photo {
        width: 40%;
-       margin-left: 200px;
+       margin-left: 300px;
 }
 
 p{
@@ -42,11 +42,37 @@ p{
 }
 
 p.hero {
-    font-size: 44px;
-    margin-top: 150px;
+    font-size: 30px;
+    margin-top: 160px;
+    margin-bottom: 40px;
 
 }
 span.zahra {
-    font-size: 60px;
+    font-size: 39px;
     color: #485BBC;
 }
+.item {
+    background-color:#F5FCFF;
+    width: 250px;
+    margin-right: 10px;
+   
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.owl-nav {
+    text-align: center;
+}
+
+.img-carousel {
+    width: 50px;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    img.hero-photo {
+        margin-right: 30px;
+    }
+  }
