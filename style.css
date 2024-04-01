@@ -36,6 +36,11 @@ img.hero-photo {
        width: 40%;
        margin-left: 300px;
 }
+h2.zahra.ms-2 {
+    margin-top: 100px;
+    color: white;
+    margin-bottom: 30px;
+}
 
 p{
     font-family: Helvetica;
@@ -69,7 +74,15 @@ span.zahra {
     width: 50px;
 }
 
+footer {
+    background-color: #7583CC;
+}
 
+iframe {
+    border-radius: 10px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
 
 @media only screen and (max-width: 500px) {
     img.hero-photo {
