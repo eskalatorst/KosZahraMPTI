@@ -1,8 +1,9 @@
 :root,
 [data-bs-theme=light] {
-  --bs-blue:#485BBC;
-  ;
+    --bs-blue: #485BBC;
+    ;
 }
+
 body {
     font-family: Helvetica;
 }
@@ -22,9 +23,9 @@ p.koszahra {
 header {
     border-bottom: 2px solid;
     border-color: #999999;
-
 }
-button.btn.btn-login{
+
+button.btn.btn-login {
     background-color: #485BBC;
     color: white;
 }
@@ -32,17 +33,19 @@ button.btn.btn-login{
 section.hero {
     background-color: #F5FCFF;
 }
+
 img.hero-photo {
-       width: 40%;
-       margin-left: 300px;
+    width: 40%;
+    margin-left: 300px;
 }
+
 h2.zahra.ms-2 {
     margin-top: 100px;
     color: white;
     margin-bottom: 30px;
 }
 
-p{
+p {
     font-family: Helvetica;
 }
 
@@ -50,22 +53,23 @@ p.hero {
     font-size: 30px;
     margin-top: 160px;
     margin-bottom: 40px;
-
 }
+
 span.zahra {
     font-size: 39px;
     color: #485BBC;
 }
+
 .item {
-    background-color:#F5FCFF;
+    background-color: #F5FCFF;
     width: 250px;
     margin-right: 10px;
-   
     padding-top: 50px;
     padding-bottom: 50px;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+
 .owl-nav {
     text-align: center;
 }
@@ -84,8 +88,20 @@ iframe {
     margin-top: 70px;
 }
 
+#myElement {
+    cursor: pointer;
+    /* Membuat kursor berubah saat elemen diarahkan */
+    transition: transform 0.3s ease;
+    /* Menambahkan efek transisi */
+}
+
+#myElement:hover {
+    transform: scale(1.1);
+    /* Membesarkan elemen saat disentuh */
+}
+
 @media only screen and (max-width: 500px) {
     img.hero-photo {
         margin-right: 30px;
     }
-  }
+}
