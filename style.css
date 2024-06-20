@@ -8,6 +8,15 @@ body {
     font-family: Helvetica;
 }
 
+h1 {
+    color: #485BBC;
+}
+
+a.nav-menu {
+    text-decoration: none;
+    color: white;
+}
+
 .img-logo {
     width: 42px;
 }
@@ -26,12 +35,12 @@ header {
 }
 
 button.btn.btn-login {
-    background-color: #485BBC;
+    background-color: #FFA500;
     color: white;
 }
 
 section.hero {
-    background-color: #F5FCFF;
+    background-color: #FFFBF3;
 }
 
 img.hero-photo {
@@ -98,6 +107,14 @@ iframe {
 #myElement:hover {
     transform: scale(1.1);
     /* Membesarkan elemen saat disentuh */
+}
+
+.nav-menu {
+    padding-left: 10px;
+}
+
+h1 {
+    font-size: large;
 }
 
 @media only screen and (max-width: 500px) {
